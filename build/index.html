@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Main Page">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Main Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./img/favicon.svg">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+
+    <main class="main">
+
+        <!-- Aside -->
+        <aside class="aside">
+    <div class="aside__top">
+        <a href="index.html">Logo</a>
+        <img class="burger" src="./img/burger-icon.svg" alt="icon">
+    </div>
+
+    <div class="aside__wrap">
+        <div class="aside__user">
+            <img class="aside__user-ava" src="./img/user1.jpg" alt="user">
+            <p>Александр Иванов</p>
+            <img src="./img/arrow1.svg" alt="arrow">
+        </div>
+
+        <div class="aside__menu">
+            <a href="index.html">Cabinet</a>
+            <a href="settings.html">Settings</a>
+            <a href="payment.html">Payment</a>
+            <a href="cashout.html">Cashout</a>
+            <!-- <a href="">Settings</a> -->
+        </div>
+    </div>
+</aside>
+
+        <!-- s-cabinet -->
+        <section class="section">
+    <div class="section__top">
+        <h2>Александр Иванов</h2>
+
+        <div class="section__top-box">
+            <p>ivanov143@gmail.com</p>
+            <img src="./img/login-icon.png" alt="login">
+        </div>
+    </div>
+
+    <div class="credit-card">
+        <p>Баланс</p>
+        <h3>0.00000₽</h3>
+    </div>
+
+    <!-- Table -->
+    <div class="table">
+    <div class="table-top">
+        <div class="search-container">
+            <input type="text" placeholder="Поиск по ID транзакции">
+            <button class="btn-main search-button">Поиск</button>
+        </div>
+        <div class="actions-container">
+            <button class="filter-button">
+                <img src="./img/btn-icon1.svg" alt="">
+                Фильтр
+            </button>
+            <button class="refresh-button">
+                <img src="./img/btn-icon2.svg" alt="">
+                Обновить
+            </button>
+            <button class="export-button">
+                <img src="./img/btn-icon3.svg" alt="">
+                Экспорт
+            </button>
+            <button class="create-button">
+                <img src="./img/btn-icon4.svg" alt="">
+                Создать
+            </button>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Действия</th>
+                    <th>ID</th>
+                    <th>Дата</th>
+                    <th>Обновлено</th>
+                    <th>Статус</th>
+                    <th>Сумма, FIAT</th>
+                    <th>Сумма, Finally</th>
+                    <th>Реквизиты</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>...</td>
+                    <td>l4495ndndhjfkf9nnd90</td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td class="status expired">EXPIRED</td>
+                    <td>5,234.00 <span>RUB</span></td>
+                    <td>0.00 <span>RUB</span></td>
+                    <td>2919744737364859</td>
+                </tr>
+
+                <tr>
+                    <td>...</td>
+                    <td>l4495ndndhjfkf9nnd90</td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td class="status expired">EXPIRED</td>
+                    <td>5,234.00 <span>RUB</span></td>
+                    <td>0.00 <span>RUB</span></td>
+                    <td>2919744737364859</td>
+                </tr>
+
+                <tr>
+                    <td>...</td>
+                    <td>l4495ndndhjfkf9nnd90</td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td class="status expired">EXPIRED</td>
+                    <td>5,234.00 <span>RUB</span></td>
+                    <td>0.00 <span>RUB</span></td>
+                    <td>2919744737364859</td>
+                </tr>
+
+                <tr>
+                    <td>...</td>
+                    <td>l4495ndndhjfkf9nnd90</td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td>30.04.2024 <span>00:12:03</span></td>
+                    <td class="status expired">EXPIRED</td>
+                    <td>5,234.00 <span>RUB</span></td>
+                    <td>0.00 <span>RUB</span></td>
+                    <td>2919744737364859</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="pagination">
+        <p>1-9 из 28</p>
+
+        <div class="pagination-btns">
+            <button>
+                <img src="./img/pag-icon1.svg" alt="pagination-icon">
+            </button>
+
+            <button>
+                <img src="./img/pag-icon2.svg" alt="pagination-icon">
+            </button>
+
+            <button>
+                <img src="./img/pag-icon3.svg" alt="pagination-icon">
+            </button>
+
+            <button>
+                <img src="./img/pag-icon4.svg" alt="pagination-icon">
+            </button>
+        </div>
+
+
+    </div>
+</div>
+</section>
+
+
+    </main>
+
+    <!-- Footer -->
+    
+
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
