@@ -173,6 +173,7 @@ h6 {
 .btn-outline {
   border: 2px solid #0a3f95;
   color: #0a3f95;
+  background: transparent;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -671,6 +672,105 @@ tbody tr:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.login {
+  background-image: url(../img/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  /* .login__logo */
+  /* .login__wrap */
+}
+
+.login__logo {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3D3D3D;
+  background: #fff;
+  padding: 6px 40px;
+  border-radius: 8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.login__wrap {
+  max-width: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #1B1B1B;
+  padding: 30px;
+  margin-top: 150px;
+}
+
+.login__wrap h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.login__wrap form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 350px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.login__wrap form input {
+  border: 1px solid #DADADA;
+  padding: 12px 13px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.login__wrap form button {
+  width: 100%;
+  max-width: 100%;
+}
+
+.login__wrap form a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
