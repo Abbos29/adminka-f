@@ -780,6 +780,43 @@ tbody tr:hover {
 }
 
 @media (max-width: 480px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .aside {
+    padding: 20px;
+    height: auto;
+    position: relative;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .aside.aside-active .aside__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: visible;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .aside .aside__wrap {
+    left: 0;
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  .section {
+    padding-left: 30px;
+  }
+
   .search-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
