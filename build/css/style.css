@@ -597,10 +597,12 @@ table {
 
 th,
 td {
-  padding: 20px;
+  font-size: 14px;
+  padding: 15px;
   text-align: center;
   border-bottom: 1px solid #ddd;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 th span,
@@ -624,6 +626,11 @@ thead tr {
 
 tbody tr:hover {
   background-color: #f1f1f1;
+}
+
+tbody tr > td:first-child {
+  cursor: pointer;
+  border-right: 1px solid #ddd;
 }
 
 .pagination {
@@ -675,10 +682,6 @@ tbody tr:hover {
 }
 
 .login {
-  background-image: url(../img/login-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 100dvh;
   padding: 40px 0px;
   display: -webkit-box;
@@ -730,6 +733,7 @@ tbody tr:hover {
   color: #1B1B1B;
   padding: 30px;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .login__wrap h3 {
@@ -770,7 +774,22 @@ tbody tr:hover {
   display: block;
   text-align: center;
   margin: 0 auto;
-  text-decoration: underline;
+  color: #0a3f95;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.login-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  z-index: -1;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 768px) {
