@@ -46,10 +46,7 @@
 </aside>
 
         <!-- S-settings -->
-        
-
-
-<section class="section">
+        <section class="section">
     <div class="section__top">
         <h2>Общие настройки</h2>
 
@@ -65,26 +62,52 @@
             <h4>Last IP</h4>
             <p>64743927215374</p>
         </div>
-    
+
         <div>
             <h4>Last user Agent</h4>
             <p>djfh283744bdi10</p>
         </div>
-    
+
         <div>
             <h4>Last seen</h4>
             <p>18.09.2023 18:37</p>
         </div>
-    
+
         <div>
             <h4>Expires at</h4>
             <p>25.09.2024 15:33</p>
         </div>
-    
+
         <div class="section__settings-btns">
             <button class="btn-main">Сменить пароль</button>
             <button class="btn-outline">Активные сессии</button>
         </div>
+    </div>
+
+    <div class="section__merchant">
+        <h2>Методы оплаты</h2>
+        <h3>СБП: True</h3>
+        <h3>По номеру карты: True</h3>
+
+        <h2>Комиссия</h2>
+        <form method="post">
+            <div class="row">
+                <b>Клиент </b>
+                <!-- <div id="slider_client_label"></div> / <div id="slider_merchant_label"></div> -->
+                <b>Мерчант</b>
+            </div>
+            <input type="hidden" name="csrfmiddlewaretoken"
+                value="I28ED25vmbKd49fMTJ44tvM0LZfTnWOVudJwVC4ceFhKAWpT8jvom0uyjsPnhohz">
+            <p>
+                <input type="range" name="commission_percent_client" value="71" required
+                    id="id_commission_percent_client">
+            </p>
+            <div class="row-s">
+                
+                <input class="btn-main" type="submit" value="Сохранить">
+            </div>
+        </form>
+
     </div>
 </section>
 

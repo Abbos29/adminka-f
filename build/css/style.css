@@ -504,6 +504,80 @@ body::-webkit-scrollbar-thumb {
   gap: 10px;
 }
 
+.section__merchant {
+  color: #333;
+  max-width: 450px;
+  margin-top: 30px;
+}
+
+.section__merchant .row-s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section__merchant h2 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 0.5em;
+}
+
+.section__merchant h3 {
+  font-size: 1em;
+  margin: 0.5em 0;
+  color: #555;
+}
+
+.section__merchant form {
+  padding: 1em 0;
+}
+
+.section__merchant form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-right: auto;
+}
+
+.section__merchant form p {
+  margin-bottom: 1em;
+}
+
+.section__merchant form input[type=range] {
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+.section__merchant form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__merchant form div span {
+  font-size: 0.9em;
+}
+
+.section__merchant form div #slider_client_label,
+.section__merchant form div #slider_merchant_label {
+  font-size: 0.9em;
+  padding: 0 0.5em;
+}
+
 .table-top {
   display: -webkit-box;
   display: -ms-flexbox;
